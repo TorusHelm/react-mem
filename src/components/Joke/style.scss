@@ -1,0 +1,23 @@
+.joke {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    padding: 24px;
+    color: #fff;
+    width: 500px;
+    height: 500px;
+    background-color: tomato;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 0 0 auto;
+    margin: 12px;
+
+    &__pounch {
+        &_alone {
+            margin: auto 0;
+        }
+    }
+}
